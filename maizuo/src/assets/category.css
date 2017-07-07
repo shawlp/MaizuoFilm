@@ -1,0 +1,99 @@
+#shop-category {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0.98rem;
+    z-index: 501;      
+}
+
+#shop-category .detail {
+    padding: 0.34rem 0.4rem;
+    margin-bottom: 0.06rem;
+    background: #fff url(img/bg.png) no-repeat;
+    background-size: 100% 100%;
+    height: 1.88rem;
+}
+
+#shop-category .detail img {
+    width: 1rem;
+    height: 1rem;
+    float: left;
+}
+
+#shop-category .detail p {
+    margin-left: 0.6rem;
+    width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    margin-top: 0.36rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 320px;
+}
+
+.recommend .container .items {
+    background-color: #f2f2f2;
+    min-height: 5.1rem;
+    padding-right: 0.1rem;
+    padding-left: 0.1rem;
+}
+
+.recommend .container .items .item1 {
+    position: relative;
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 0.1rem;
+}
+
+.recommend .container .items .item1 .logo {
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+}
+
+.recommend .container .items .item1 .logo img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.recommend .container .items .even {
+    padding-right: 0.05rem;
+}
+
+.recommend .container .items .odd {
+    padding-left: 0.05rem;
+}
+
+.recommend .container .items .item1 .logo .name {
+    font-size: 0.24rem;
+    height: 0.34rem;
+    color: #323232;
+    text-align: left;
+    padding-left: 0.12rem;
+    margin-bottom: 0.32rem;
+}
+
+.recommend .container .items .item1 .logo .content {
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 0.1rem;
+}
+
+.recommend .container .items .item1 .logo .content .price {
+    font-size: 0.26rem;
+    color: #ff5000;
+    padding-left: 0.12rem;
+}
+
+.recommend .container .items .tips {
+    text-align: center;
+    font-size: 0.24rem;
+    color: #999;
+}

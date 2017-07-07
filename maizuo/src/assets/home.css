@@ -1,0 +1,161 @@
+#home {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0.98rem;
+    right: 0;
+    bottom: 0;
+    background: #e1e1e1;
+    overflow-y: auto;
+    z-index: 500;
+}
+
+#home .banner {
+    width: 100%;
+    height: 3.6rem;
+}
+
+#home .banner img {
+    height: 3.6rem;
+}
+
+#home .now-playing {
+    padding-top: 0.36rem;
+}
+
+#home .coming-soon {
+    padding-top: 0.36rem;
+}
+
+
+.item {
+    margin: 0 0.34rem 0.34rem 0.34rem;
+    background-color: #f9f9f9;
+    box-shadow: 0.5px 0.5px 1px #a8a8a8;
+    cursor: pointer;    
+}
+
+.item img {
+    width: 5.72rem;
+}
+
+.item .desc {
+    height: 1rem;
+}
+
+.item .desc .info {
+    float: left;
+    margin-left: 0.28rem;
+    margin-top: 0.15rem;
+}
+
+.item .desc .info h4 {
+    font-size: 0.24rem;
+    line-height: 0.3rem;
+}
+
+.item .desc .info p {
+    font-size: 0.16rem;
+    color: #9a9a9a;
+    line-height: 0.3rem;
+}
+
+.item .desc .grade {
+    float: right;
+    color: #f78360;
+    line-height: 1rem;
+    margin-right: 0.3rem;
+    font-size: 0.42rem;
+}
+
+ a.go-more {
+    width: 3.2rem;
+    height: 0.6rem;
+    border: 1px solid #aaa;
+    border-radius: 0.3rem;
+    margin: 0.2rem auto 0.6rem;
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.24rem;
+    color: #616161;
+    cursor: pointer;
+    display: block;
+}
+
+#home .coming-title {
+    position: relative;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    border-bottom: 1px solid #a8a8a8;
+}
+
+#home .coming-title div {
+    width: 1.3rem;
+    height: 0.4rem;
+    margin: 0 auto;
+    margin-bottom: -0.2rem;
+    border-radius: 0.1rem;
+    font-size: 0.2rem;
+    line-height: 0.4rem;
+    text-align: center;
+    color: #eee;
+    background-color: #a7a7a7;
+}
+
+.item .desc1 {
+    height: 0.7rem;
+}
+
+.item .desc1 .info {
+    float: left;
+    margin-left: 0.28rem;
+    margin-top: 0.15rem;
+}
+
+.item .desc1 .info h4 {
+    font-size: 0.24rem;
+    line-height: 0.3rem;
+}
+
+.item .desc1 .time {
+    float: right;
+    color: #f78360;
+    line-height: 0.6rem;
+    margin-right: 0.3rem;
+    font-size: 0.2rem;
+}
+
+.go-top.active {
+    bottom: 0.16rem;
+    transition: .3s linear;
+}
+
+.go-top {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    width: 1rem;
+    text-align: center;
+    height: 1rem;
+    line-height: 1rem;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 501;
+    bottom: -5rem;
+    right: 0.16rem;
+    transition: .3s linear;
+}
+
+.icon-gotop:before {
+    content: "\e659";
+}
+
+.go-top i {
+    font-size: 0.6rem;
+}
+
+
+
+
+
+

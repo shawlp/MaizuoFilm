@@ -1,0 +1,66 @@
+#detail {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0.98rem;
+    z-index: 501;
+    background-color: #ebebeb;
+    height: 100%;        
+}
+
+#detail .img-container {
+    width: 100%;
+}
+
+#detail .img-container img {
+    width: 100%;
+}
+
+#detail .film-introduce {
+    background-color: #ebebeb;
+     font-size: 0.26rem;
+}
+#detail .film-introduce .film-word1 {
+    margin: 0.16rem auto;
+    border-left: 0.32rem solid RGB(228, 200, 156);
+    font-size: 0.3rem;
+    padding-left: 0.08rem;
+}
+
+#detail .film-introduce .film-word2 {
+    height: 0.36rem;
+    overflow: hidden;
+    margin-bottom: 0.2rem;
+    padding-left: 0.4rem;
+}
+
+#detail .film-introduce .film-word3 {
+    text-overflow: ellipsis;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    /*margin-bottom: 0.4rem;*/
+}
+
+.operation {
+    position: fixed;
+    left: 18%;
+    bottom: 0.4rem;
+}
+
+.operation .buy-btn {
+    display: block;
+    font-size: 0.28rem;
+    width: 2.8rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    border: none;
+    background-color: #fe8233;
+    padding: 0;
+    margin: 0;
+    border-radius: 0.36rem;
+    color: #fff;
+    text-align: center;
+    margin-left: 25%;
+}
+

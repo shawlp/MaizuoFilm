@@ -1,0 +1,116 @@
+#cinema {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0.98rem;
+    z-index: 501;
+    background-color: #fff;        
+}
+
+#cinema .citem .title{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+    padding-left: 0.32rem;
+    background: #e1e1e1;
+    margin-bottom: 1px;
+    color: #636363;
+    cursor: pointer;    
+}
+
+#cinema .citem .list .shop{
+    margin: 0 auto;
+    border-bottom: 1px solid #e1e1e1;
+    cursor: pointer;
+    position: relative
+}
+
+#cinema .citem .list .shop .desc {
+    padding: 0.2rem 0 0.24rem 0.32rem;
+    cursor: pointer;
+    width: 82%;
+}
+
+.shop .desc .desc-title{
+    width: 100%;
+    margin-bottom: 0.1rem;
+}
+
+.shop .desc .desc-title span:nth-child(1) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 80%;
+    font-size: 0.26rem;
+}
+
+.shop .desc .desc-title span:nth-child(2) {
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    color: orangered;
+    line-height: 0.4rem;
+    text-align: center;
+    border: 1px solid;
+    font-size: 0.26rem;
+}
+
+.shop .desc .desc-title span:nth-child(3) {
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    color: #51add0;
+    line-height: 0.4rem;
+    text-align: center;
+    border: 1px solid;   
+    font-size: 0.26rem;     
+}
+
+.tip span{
+    border-radius: 0.06rem;
+    padding: 0 0.1rem;
+    margin: 0 0.1rem;
+    font-style: normal;
+    color: #fff;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    background-color: #51add0;
+    font-size: 0.25rem;
+}
+
+.area {
+    font-size: 0.24rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    color: #ccc;
+}
+
+.extra {
+    font-size: 0.24rem;
+    color: #ccc;
+}
+
+.cright {
+    position: absolute;
+    right: 0.2rem;
+    top: 0.25rem;
+    font-size: 0.48rem;
+}
+
+.cright1 {
+    position: absolute;
+    right: 0.2rem;
+    top: 0.24rem;
+    font-size: 0.36rem;
+    color: orangered;
+}
+
+
+
+
+

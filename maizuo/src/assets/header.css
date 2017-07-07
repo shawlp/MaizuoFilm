@@ -1,0 +1,79 @@
+/*header样式*/
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    top: 0;
+    background: #282828;
+    line-height: 1rem;
+    z-index: 700;
+}
+
+#header .header-left {
+    float: left;
+    color: #fff;
+    line-height: 1rem;
+    text-align: left;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.8);
+    width: auto;
+    height: 1rem;
+    margin: 0 auto;
+}
+
+#header .header-left .icon-container {
+    float: left;
+    width: 0.96rem;
+    text-align: center;
+    border-right: 1px solid #222;
+    color: #999;
+}
+
+.icon-menu:before {
+    content: "\e6a2";
+}
+
+#header .header-left .toolbar-title {
+    float: left;
+    width: 3rem;
+    padding: 0 0.2rem;
+    font-size: 0.28rem;
+    color: #efefef;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#header .header-right {
+    float: right;
+}
+
+#header .header-right a{
+    color: #999;
+}
+
+#header .header-right .city {
+    float: left;
+    font-size: 0.28rem;
+    padding: 0 0.12rem;
+}
+
+.icon-jiantou-down:before {
+    content: "\e616";
+}
+
+#header .header-right .user {
+    float: left;
+    font-size: 16px;
+    width: 48px;
+    text-align: center;
+}
+
+.icon-wode:before {
+    content: "\e69f";
+    font-size: 0.4rem;
+}
+
+
+
+

@@ -1,0 +1,60 @@
+/*city样式*/
+#city {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0.98rem;
+    z-index: 501;
+    background-color: #fff;
+}
+
+.city-view .city-index-title {
+    padding-left: 0.3rem;
+    font-size: 0.28rem;
+    line-height: 0.8rem;
+    background-color: #ebebeb;
+    margin-top: -1px;
+}
+
+.city-view .city-index-detail {
+    background-color: #fff;
+}
+
+.city-view .city-index-detail ul {
+    margin: 0;
+    width: 100%;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.city-view .city-index-detail {
+    overflow: hidden;
+}
+
+.city-view .city-index-detail .city-item-detail {
+    width: 25%;
+    line-height: 0.92rem;
+    text-align: center;
+    cursor: pointer;
+    color: #838383;
+    position: relative;
+    float: left;
+}
+
+.city-item-detail:after {
+    content:"";
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    border-bottom:1px solid #ebebeb;
+    transform:scaleY(.5);
+}
+
+.city-view .city-index-detail .city-item-detail-gprs {
+    color: #e2941a;
+}

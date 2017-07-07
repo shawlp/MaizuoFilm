@@ -1,0 +1,118 @@
+#film {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0.98rem;
+    z-index: 501;      
+}
+
+#film .film-list-wrap {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    background-color: #f9f9f9;
+    width: 100%;
+    position: absolute;
+    min-height: 100%;
+}
+
+#film .film-list-wrap .tabs {
+    height: 0.98rem;
+    margin: 0 auto;
+    border-bottom: solid #fe6e00 1px;
+}
+
+.film-list-wrap .tabs .tabs-item {
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    line-height: 0.98rem;
+    color: #6a6a6a;
+    cursor: pointer;
+}
+
+.film-list-wrap .tabs .tabs-item.active {
+    color: #fe6e00;
+    border-bottom: solid;
+}
+
+.film-list-wrap .tab-content a {
+    display: block;
+    width: 100%;
+    padding: 0.4rem 0;
+    border-bottom: dashed 1px #c9c9c9;
+    cursor: pointer;
+}
+
+.film-list-wrap .tab-content .avater {
+    width: 1rem;
+    float: left;
+    overflow: hidden;
+}
+
+.film-list-wrap .tab-content .avater img {
+    width: 1rem;
+}
+
+.film-list-wrap .tab-content .info {
+    padding-left: 0.3rem;
+    display: inline-block;
+    width: 75%;
+}
+
+.info h3 {
+    font-size: 0.3rem;
+    line-height: 0.5rem;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left
+}
+
+.info p:nth-child(2) {
+    line-height: 0.48rem;
+    color: #8e8e8e;
+    font-size: 0.24rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.info p:nth-child(3) {
+    line-height: 0.48rem;
+    color: #8e8e8e;
+    font-size: 0.24rem;    
+}
+
+.info p:nth-child(3) span {
+    color: #8aa2bf;
+}
+
+.tab-content .count {
+    float: right;
+    font-size: 0.32rem;
+    line-height: 0.5rem;
+    color: #fc7103;
+    margin-right: 0.24rem;
+}
+
+.inf {
+    position: relative
+}
+
+.inf .right1 {
+    position: absolute;
+    right:0;
+    top: 0.1rem;
+}
+
+.time {
+    line-height: 0.48rem;
+    color: #ffb375 !important;
+    font-size: 0.24rem;
+}
+
+

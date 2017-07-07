@@ -1,0 +1,233 @@
+#cinema-detail {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0.98rem;
+    z-index: 501;      
+}
+
+#cinema-detail .img-container {
+    width: 100%;
+    height: 3.06rem;
+}
+
+#cinema-detail .img-container img {
+    height: 3.06rem;
+}
+
+#cinema-detail .detail-box {
+    padding: 0.5rem 0.34rem 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#cinema-detail .detail-box .box-wrap {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+
+.detail-box div.img {
+    margin-top: 0.1rem;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.detail-box div.box {
+    border-bottom: 1px #d6d6d6 dotted;
+    position: relative;
+    padding-bottom: 0.5rem;
+    margin-left: 0.6rem;
+}
+
+.detail-box h3 {
+    color: #000;
+    font-size: 0.26rem;
+    font-weight: normal;
+}
+
+.detail-box h4 {
+    color: #000;
+    font-size: 0.26rem;
+    font-weight: normal;
+}
+
+.detail-box div.box span {
+    color: #737373;
+    font-size: 0.24rem;
+}
+
+.detail-box .seat-btn {
+    background-color: #fe8233;
+    color: #fff;
+}
+
+.detail-box .order-btn {
+    color: #ff8032;
+    background-color: #f9f9f9;
+    border: 1px solid #ff8032 !important;
+}
+
+ .detail-box .btn-default {
+    width: 1.5rem;
+    border-radius: 0.74rem;
+    height: 0.5rem;
+    border: none;
+    font-size: 0.26rem;
+    position: absolute;
+    right: 0px;
+    top: -10px;
+}
+
+.other-detail-box {
+    padding: 0.3rem 0 0.6rem;
+    background-color: #f9f9f9;
+    margin-top: 0.3rem;
+    cursor: pointer;
+}
+
+.other-detail-box ul {
+    position: relative;
+    padding-left: 0.6rem;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -0.1rem;
+}
+
+.other-detail-box li {
+    border-bottom: 1px #d6d6d6 solid;
+    padding: 0;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-right: 0.1rem;
+    padding-left: 0.06rem;
+}
+
+.col-xs-2 {
+    width: 16.66666667%;
+    float: left;
+}
+
+.other-detail-box li.active {
+    border-bottom: 0.06rem #ff8032 solid;
+}
+
+.other-detail-box li .li-wrap {
+    padding: 0 0.14rem 0.1rem;
+    margin-bottom: 0.04rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.li-wrap i {
+    float: left;
+    font-size: 0.6rem;
+}
+
+.li-wrap .iconfont {
+    color: #cdcdcd !important;
+    border-radius: 50%;
+    width: 0.6rem;
+    height: 0.6rem;
+    border: 1px solid #cdcdcd;
+    padding-top: 0.1rem;
+    font-size: 0.32rem;
+}
+
+li.active .iconfont {
+    border: 1px solid #fe8233;
+    color: #fe8233 !important;
+}
+
+.li-wrap span {
+    color: #737373;
+    display: block;
+    width: 0.65rem;
+    text-align: center;
+    margin-top: 0.45rem;
+    font-size: 0.26rem;
+}
+
+.other-detail-box .li-box {
+    padding: 0 0.6rem;
+}
+
+.other-detail-box .li-box p {
+    font-size: 0.26rem;
+    color: #737373;
+    margin-top: 0.1rem;
+}
+
+.icon-piao1:before {
+    content: "\e669";
+    color: orangered;
+    font-size: 0.4rem;
+}
+
+.icon-piao:before {
+    content: "\e61b";
+    color: blue;
+    font-size: 0.4rem;
+}
+
+.icon-piaol:before {
+    content: "\e61b";
+    font-size: 0.4rem;
+}
+
+.icon-dingwei:before {
+    content: "\e66d";
+    color: blue;
+    font-size: 0.4rem;
+}
+
+.icon-dianhua-copy:before {
+    content: "\e604";
+    color: purple;
+    font-size: 0.4rem;
+}
+
+.icon-3d:before {
+    content: "\e66f";
+    font-size: 0.4rem;
+}
+
+.icon-park:before {
+    content: "\e6b0";
+    font-size: 0.4rem;
+}
+
+.icon-youhui1:before {
+    content: "\e870";
+    font-size: 0.4rem;
+}
+
+.icon-jiaotong:before {
+    content: "\e61e";
+    font-size: 0.4rem;
+}
+
+
+.icon-youhui:before {
+    content: "\e870";
+    color: red;
+    font-size: 0.4rem;
+}
+
+.icon-piao:before {
+    content: "\e61b";
+    color: blue;
+    font-size: 0.4rem;
+}
+
+
+
+
+

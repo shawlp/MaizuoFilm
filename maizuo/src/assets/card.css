@@ -1,0 +1,105 @@
+#card {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0.98rem;
+    z-index: 501;
+    background-color: #fcfcfc;
+    width: 100%;
+    min-height: 100%;
+    font-size: 0.28rem;      
+}
+
+.card_query_form .tab {
+    height: 0.9rem;
+    background-color: #fff;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    text-align: center;
+    font-size: 0.3rem;
+    color: #ccc;
+}
+
+.card_query_form ul {
+    margin: 0px;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.card_query_form ul li {
+    text-align: center;
+    line-height: 0.9rem;
+    box-shadow: 0 -1px #ff7100 inset;
+    width: 50%;
+}
+
+.card_query_form ul li.active {
+    box-shadow: 0 -0.08rem #ff7100 inset;
+}
+
+.card_query_form ul li div {
+    color: #333;
+}
+
+
+.card_query_form ul li.active div {
+    color: #ff7100;
+}
+
+.list-inline > li {
+    float: left;
+    padding-right: 0.1rem;
+    padding-left: 0.1rem;
+}
+
+.card_query_form .material {
+    margin-top: 0.4rem;
+    padding: 0 0.64rem;
+}
+
+.card_query_form .material div {
+    margin-top: 0.6rem;
+}
+
+.card_query_form .material label {
+    font-weight: normal;
+    line-height: 0.68rem;
+    margin: 0 0.3rem 0 0.2rem;
+    float: left;
+}
+
+.card_query_form .material input {
+    border: none;
+    background-color: transparent;
+    height: 0.68rem;
+    width: 55%;
+    font-size: 0.28rem;
+    vertical-align: top;
+    border: none;
+    outline: medium;
+}
+
+.card_query_form .material .line {
+    border-width: 0px 1px 1px;
+    border-style: solid;
+    border-color: #ccc;
+    height: 5px;
+    margin-top: -5px;
+}
+
+.card_query_bottom {
+    width: 3.2rem;
+    margin: 0.5rem auto 0.6rem;
+    border-radius: 0.36rem;
+    background-color: #fe8233;
+    height: 0.72rem;
+    color: #fff;
+    font-size: 0.28rem;
+    line-height: 0.72rem;
+    border: none;
+    outline: none;
+}

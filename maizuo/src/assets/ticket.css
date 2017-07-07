@@ -1,0 +1,115 @@
+#ticket {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0.98rem;
+    z-index: 501;
+    background-color: #f2f2f2;;        
+}
+
+.application-main {
+    flex: 1;
+    padding-bottom: 1rem;
+}
+
+.schedule-list-view {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.schedule-list-view ul {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    width: 100%;
+}
+
+.schedule-list-view .tip {
+    font-size: 0.24rem;
+    margin: 0.4rem auto 0;
+    color: rgba(150, 144, 144, 0.4);
+    text-align: center;
+}
+
+.schedule-list-view ul .schedule-item.first-child {
+    margin-top: 0;
+}
+
+.schedule-list-view ul .schedule-item {
+    background-color: #fff;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-top: 0.1rem;
+    box-sizing: border-box;
+    padding: 0.2rem 0.2rem 0.3rem 0.2rem;
+    overflow-x: hidden;
+}
+
+.image-wrap {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 0.04rem;
+}
+
+.schedule-list-view ul .schedule-item img {
+    width: 100%;
+}
+
+.schedule-list-view ul .schedule-item p {
+    margin: 0.12rem 0 0 0;
+    line-height: 1.2em;
+    font-size: 0.28rem;
+}
+
+.schedule-list-view .coupon {
+    margin-top: 0.2rem;
+    white-space: nowrap;
+    display: inline-flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.schedule-list-view .coupon-home.first-child {
+    margin-left: 0;
+}
+
+.schedule-list-view .coupon-home {
+    font-size: 0.28rem;
+    padding: 0.08rem;
+    color: #ff5000;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 0 0 0.2rem;
+}
+
+
+.coupon-home {
+    background-image: url(./img/ticketbg.svg);
+}
+
+.schedule-list-view .coupon-home .limit {
+    font-size: 0.16rem;
+    color: rgba(0, 0, 0, 0.4);
+    display: block;
+    width: 1.48rem;
+    text-align: center;
+    margin-top: -0.05rem;
+}
+
+.more {
+    margin-left: 0.08rem;
+}
+
+.icon-more:before {
+    content: "\e60f";
+    font-size: 0.4rem;
+}

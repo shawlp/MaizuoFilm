@@ -1,0 +1,186 @@
+#shop-preorder {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0.98rem;
+    z-index: 501;      
+}
+
+.preorder .preorder-info {
+    margin-bottom: 0.5rem;
+}
+
+.preorder .info {
+    width: 100%;
+    padding: 0.2rem 0.32rem;
+    background-color: #fff;
+    position: relative;
+}
+
+.preorder .info .left {
+    text-align: center;
+    float: left;
+}
+
+.preorder .info .left img {
+    height: 1.34rem;
+    width: 1.34rem;
+}
+
+.preorder .info .right {
+    width: 76%;
+    padding-left: 0.22rem;
+    float: left;
+}
+
+.preorder .info .right .right-header {
+    height: 0.4rem;
+}
+
+.preorder .info .right .right-header .count {
+    float: right;
+    line-height: 0.4rem;
+    font-size: 0.28rem;
+}
+
+.preorder .info .right .right-header .name {
+    line-height: 0.4rem;
+    font-size: 0.28rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.preorder .info .right .spe {
+    margin: 0.1rem 0;
+    font-size: 0.22rem;
+    line-height: 0.3rem;
+    color: #000;
+    opacity: .54;
+}
+
+.preorder .info .right .price {
+    line-height: 0.4rem;
+    font-size: 0.28rem;
+    color: #ff5000;
+}
+
+.preorder .info-dash {
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: url(http://aura.maizuo.com/public/asset/93e912a7.png) repeat-x bottom #fff;
+}
+
+.preorder .address {
+    width: 100%;
+    padding: 0 0.3rem;
+    margin: 0.2rem 0;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 0.8rem;
+}
+
+.preorder .redeem {
+    margin-bottom: 0.2rem;
+}
+
+.preorder .redeem .tab {
+    width: 100%;
+    height: 0.8rem;
+    font-size: 0.24rem;
+    padding: 0 0.34rem;
+    line-height: 0.8rem;
+    background-color: #fff;
+    border-bottom: .5px solid #ebebeb;
+}
+
+.preorder .icon-jiantou-right {
+    float: right;
+    margin-left: 0.16rem;
+}
+
+.preorder .redeem .tab .tips {
+    float: right;
+}
+
+.preorder .redeem .balance-input-wrap {
+    line-height: 0.8rem;
+    position: relative;
+    width: 0.16rem;
+    height: 0.8rem;
+    margin: 0 0.06rem 0 0.16rem;
+}
+
+.preorder .redeem .balance-input-wrap .balance-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: .16rem;
+    width: .16rem;
+    margin: auto;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    padding: 0;
+    border-radius: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.preorder .expense {
+    margin-bottom: 0.2rem;
+}
+
+.preorder .expense .tab {
+    width: 100%;
+    height: 0.8rem;
+    font-size: .24rem;
+    padding: 0 .36rem 0 .3rem;
+    line-height: .8rem;
+    background-color: #fff;
+}
+
+.preorder .expense .tab .right {
+    float: right;
+}
+
+.preorder .expense .tab .left {
+    float: left;
+}
+
+.preorder .topay {
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 320px;
+    z-index: 100;
+}
+
+.preorder .topay .checkout {
+    width: 2.1rem;
+    height: 1rem;
+    text-align: center;
+    background-color: #ff5000;
+    color: #fff;
+    float: right;
+}
+
+.preorder .topay .amount {
+    padding-left: 0.3rem;
+}
+
+.preorder .topay .amount .paymentValue {
+    color: #ff5000;
+}
